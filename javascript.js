@@ -16,5 +16,5 @@ function newPaper() {
 	var random5 = Math.floor(Math.random() * (t5.length));
 	var random6 = Math.floor(Math.random() * (t6.length));
 	var random7 = Math.floor(Math.random() * (t7.length));
-	document.getElementById('paperDisplay').innerHTML = t1[random1] + " " + t2[random2] + " and " + t3[random3] + "; " + t4[random4] + " " + t5[random5] + " " + t6[random6] + " in " + t7[random7];
+	document.getElementById('paperDisplay').innerHTML = t1[random1] + " " + t2[random2] + " and " + t3[random3] + ": " + t4[random4] + " " + t5[random5] + " " + t6[random6] + " in " + t7[random7];
 }
